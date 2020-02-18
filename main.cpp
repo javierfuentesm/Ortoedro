@@ -1,6 +1,11 @@
 #include <iostream>
+#import "Ortoedro.h"
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Ortoedro ortoedro(Coordenada(0, 0, 0), Coordenada(3, 8, 1));
+    ortoedro.obtieneVertices();
+    ortoedro.obtieneArea();
+    ortoedro.obtieneVolumen();
     return 0;
 }

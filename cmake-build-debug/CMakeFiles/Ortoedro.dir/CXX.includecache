@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rjfm/CLionProjects/Ortoedro/Coordenada.h
+
+/Users/rjfm/CLionProjects/Ortoedro/Ortoedro.cpp
+iostream
+-
+Ortoedro.h
+/Users/rjfm/CLionProjects/Ortoedro/Ortoedro.h
+
+/Users/rjfm/CLionProjects/Ortoedro/Ortoedro.h
+Rectangulo.h
+/Users/rjfm/CLionProjects/Ortoedro/Rectangulo.h
+
+/Users/rjfm/CLionProjects/Ortoedro/Rectangulo.cpp
+Rectangulo.h
+/Users/rjfm/CLionProjects/Ortoedro/Rectangulo.h
+iostream
+-
+
+/Users/rjfm/CLionProjects/Ortoedro/Rectangulo.h
+Coordenada.h
+/Users/rjfm/CLionProjects/Ortoedro/Coordenada.h
+
+/Users/rjfm/CLionProjects/Ortoedro/main.cpp
+iostream
+-
+Ortoedro.h
+/Users/rjfm/CLionProjects/Ortoedro/Ortoedro.h
+

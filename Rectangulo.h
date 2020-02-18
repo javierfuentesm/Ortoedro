@@ -15,9 +15,8 @@ public:
     Rectangulo();
     Rectangulo(double xSupIzq, double ySupIzq, double zSupIzq, double xInfDer, double yInfDer, double zInfDer);
     void imprimeEsq();
-    Coordenada obtieneSupIzq();
-    Coordenada obtieneInfDer();
-    double obtenerArea();
+    Coordenada getInfIzq();
+    Coordenada getSupDer();
 
 };
 

@@ -16,19 +16,13 @@ void Rectangulo::imprimeEsq() {
     cout << "Para la esquina superior izquierda.\n";
     cout << "x = " << superiorIzq.getX() << " y = " << superiorIzq.getY() << " z = " << superiorIzq.getZ() << endl;
     cout << "Para la esquina inferior derecha.\n";
-    cout << "x = " << inferiorDer.getX() << " y = " << inferiorDer.getY()<< " z = " << inferiorDer.getZ() << endl;
+    cout << "x = " << inferiorDer.getX() << " y = " << inferiorDer.getY() << " z = " << inferiorDer.getZ() << endl;
 }
 
-Coordenada Rectangulo::obtieneSupIzq() {
+Coordenada Rectangulo::getInfIzq() {
     return superiorIzq;
 }
 
-Coordenada Rectangulo::obtieneInfDer() {
+Coordenada Rectangulo::getSupDer() {
     return inferiorDer;
-}
-
-double Rectangulo::obtenerArea() {
-    const double ancho = inferiorDer.getX() - superiorIzq.getX();
-    const double alto = superiorIzq.getY() - inferiorDer.getY();
-    return alto*ancho;
 }
