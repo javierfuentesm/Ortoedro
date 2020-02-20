@@ -4,6 +4,7 @@
 
 #ifndef ORTOEDRO_ORTOEDRO_H
 #define ORTOEDRO_ORTOEDRO_H
+
 #include "Rectangulo.h"
 
 
@@ -16,9 +17,12 @@ private:
     Rectangulo quinto;
     Rectangulo sexto;
 public:
-    Ortoedro(Coordenada coor1,Coordenada coor2);
+    Ortoedro(Coordenada coor1, Coordenada coor2);
+
     double obtieneVertices();
+
     double obtieneArea();
+
     double obtieneVolumen();
 
 };
